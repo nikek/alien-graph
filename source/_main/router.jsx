@@ -11,8 +11,7 @@ var routesConfig = [
   { type: DefaultRoute, name: 'home', handler: Home, title: 'Home' },
   { type: Route, name: 'about', handler: About, title: 'About' },
   { type: Route, name: 'users', handler: Users, title: 'Users' },
-  { type: Route, name: 'list', handler: List, title: 'List' },
-  { type: Route, name: 'graph', handler: AlienGraph, title: 'Alien Graph' }
+  { type: Route, name: 'list', handler: List, title: 'List' }
 ];
 
 var routes = (

@@ -7,7 +7,7 @@ class Home extends React.Component {
     return (
       <div className="container-fluid">
         <h1>Sweet Home</h1>
-        <AlienGraph />
+        <AlienGraph data={MOCK}/>
       </div>
     );
   }
